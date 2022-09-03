@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Generar vector",
+      "setup": "npm install",
+      "run": "npm run test generarVector.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Contar pares",
+      "setup": "",
+      "run": "npm run test contarPares.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Obtener impares",
+      "setup": "",
+      "run": "npm run test obtenerImpares.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Sumar",
+      "setup": "",
+      "run": "npm run test sumar.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
